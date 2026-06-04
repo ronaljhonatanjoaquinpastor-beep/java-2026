@@ -26,7 +26,7 @@ public class anidadas_02 {
 
         }
 
-        sc.close();
+        entraDatos.close();
     }
 }
 
