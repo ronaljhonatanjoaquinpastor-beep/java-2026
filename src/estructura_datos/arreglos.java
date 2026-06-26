@@ -19,13 +19,19 @@ public class arreglos {
 
         //arreglo com inicializacion
 
-        int[] notas= {10,17,12,18,12,14,15,12};
+        int[] notas= {10,18,13,15,20,16,18,14};
         System.out.println(Arrays.toString(notas));
 
         // arreglo de ciudades
 
         String[] CUIDADES= {"toma,carhuaz,huaraz,tincoç"};
         System.out.println(Arrays.toString(CUIDADES));
+
+
+        for (int iterador = 0; iterador <= notas.length; iterador ++){
+            System.out.println(notas[iterador]);
+
+        }
 
 
     }
